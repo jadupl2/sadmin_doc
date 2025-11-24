@@ -1,1 +1,55 @@
-site/
+
+
+#---------------------------------------------------------------------------------------------------
+#   Author      :   Jacques Duplessis
+#   Project Name:   SADMIN 
+#   Date        :   2025/11/24
+#
+#   Change Log
+#   2025_11_24   v0.1  Initial framework
+
+# --------------------------------------------------------------------------------------------------
+
+# Ignored Compress Files Extensions
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.xcf
+# Allow zip (have some in package directory pkg)
+#*.zip
+
+# Ignore these files extensions
+*.obj
+*.pdb
+*.bak
+*.log
+*.cache
+*.org
+*.tmp
+
+# Ignore Python Related files and Ensure that package util-linux is installed on client & server.
+# Ignore MacOS related custom attributes of its containing folder
+.DS_Store
+.DS_Store?
+._.DS_Store
+
+# Ignore Windows Related files
+[Tt]humbs.db
+
+# Ignore Linux related files
+.bash_history
+.bash_profile
+.bashrc
+.vscode
+.viminfo
+.mysql_history
+.Trash-*/
+.vscode/
+
+# Exclude generated web site and exclude nogit directory content.
+nogit/*
+site/*

@@ -1,1 +1,49 @@
-site_name: My Docs
+site_name: SADMIN Documentation
+site_url: https://sadmin.ca
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+    - content.code.copy
+  logo: assets/logo.png
+  icon:
+    logo: fontawesome/solid/w
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+    
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

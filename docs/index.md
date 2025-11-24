@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to SADMIN documentation site
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For SADMIN main web site visit [sadmin.ca](https://www.sadmin.ca).
 
 ## Commands
 
@@ -15,3 +15,12 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+``` py title="add_numbers.py" linenums="1"
+def add_two_numbers(num1, num2):   
+return num1 + num2   
+   
+esult = add_two_numbers(5, 3)   
+print('The sum is:', result)   
+```
