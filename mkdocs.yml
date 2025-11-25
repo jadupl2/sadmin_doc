@@ -1,10 +1,22 @@
 site_name: SADMIN Documentation
 site_url: https://sadmin.ca
+#copyright: Copyright &copy; 2025 Jacques Duplessis
+copyright: | 
+  &copy; 2025-2026 <a href="https://github.com/jadupl2/sadmin"  target="_blank" rel="noopener">Jacques Duplessis</a>
 theme:
   name: material
   favicon: assets/favicon.ico
+
   features:
+#    - navigation.tabs
+#    - navigation.sections
     - navigation.footer
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
     - content.code.copy
   logo: assets/logo.png
   icon:
@@ -13,11 +25,13 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
     
+  language: en
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
+#        icon: material/weather-sunny
+        icon: material/toggle-switch
         name: Dark mode
       primary: green
       accent: deep purple
@@ -25,7 +39,8 @@ theme:
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-night
+#        icon: material/weather-night
+        icon: material/toggle-switch-off-outline 
         name: Light mode
       primary: blue
       accent: deep orange
@@ -47,3 +62,17 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/jadupl2
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sadmlinux
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/willettjames/
+
