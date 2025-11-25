@@ -1,4 +1,4 @@
-# Welcome to SADMIN documentation site
+# SADMIN documentation site
 
 For SADMIN main web site visit [sadmin.ca](https://www.sadmin.ca).
 

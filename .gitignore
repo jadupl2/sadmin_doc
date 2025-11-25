@@ -51,5 +51,5 @@
 .vscode/
 
 # Exclude generated web site and exclude nogit directory content.
-nogit/*
-site/*
+/nogit
+/site
