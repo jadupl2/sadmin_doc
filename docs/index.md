@@ -2,25 +2,7 @@
 
 For SADMIN main web site visit [sadmin.ca](https://www.sadmin.ca).
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you’re a Unix system administrator who’s taking care of multiple servers, you probably created some scripts to help you keeping your environment stable and under control. SADMIN can help you by centralizing your scripts logs, viewing their results in one place and even be notified if something went wrong. With SADMIN you can be notified, when a script fail or just to let you know that your script ran with success. You can received notification via email, SMS or the Slack application. SADMIN can surely help you improve and standardize the administration of your server farm.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-``` py title="add_numbers.py" linenums="1"
-def add_two_numbers(num1, num2):   
-return num1 + num2   
-   
-esult = add_two_numbers(5, 3)   
-print('The sum is:', result)   
-```
+![sadm_view_sysmon.png](images/sadm_view_sysmon.png)

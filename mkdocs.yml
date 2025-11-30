@@ -18,9 +18,10 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  logo: assets/logo.png
+    - content.tooltips
+  logo: images/logo/sadmin_logo.png
   icon:
-    logo: fontawesome/solid/w
+    logo: images/logo/sadmin_logo.png
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -47,6 +48,8 @@ theme:
 
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - admonition
   - pymdownx.details
   - pymdownx.highlight:
@@ -77,5 +80,11 @@ extra:
 #      link: https://www.linkedin.com/in/willettjames/
 
 nav:
-  - index.md
-  - about.md
+  - Home: index.md
+  - About: about.md  
+  - Getting started: getting_started/getting_started.md
+#  - Configuration file: Getting_Started/Installation/Getting_Started.md
+#  - Libraries: 
+#      - Python Library: Getting_Started/Installation/Getting_Started.md
+#      - Shell Script Library: Getting_Started/Installation/Getting_Started.md
+      
